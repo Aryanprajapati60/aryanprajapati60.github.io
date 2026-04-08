@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Prajapati Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
+        <div class="logo-box">
+            <img src="images/logo.jpg" class="logo">
+            <h2>Aryan Prajapati</h2>
+        </div>
+
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Certificates</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <div class="left">
+           <h1>Hello, I'm <span id="typing"></span> 👋</h1>
+            <p>B.Tech IT Student | Learning Web Development</p>
+            <button>Contact Me</button>
+        </div>
+
+        <div class="right">
+            <img src="images/profile.jpeg" alt="Aryan"class="profile-img">
+        </div>
+    </div>
+</header>
+
+<!-- ABOUT -->
+<section class="about">
+    <h2>About Me</h2>
+    <p>
+        I am Aryan Prajapati from Uttar Pradesh. I am pursuing B.Tech in IT. 
+        I am passionate about coding and building projects. I am currently learning Web Development.
+    </p>
+</section>
+
+<!-- CERTIFICATES -->
+<section class="certificates">
+    <h2>My Certificates</h2>
+    <div class="cert-box">
+        <img src="certificates/cert1.jpg">
+        <img src="certificates/cert2.jpg">
+        <img src="certificates/cert3.jpg">
+        <img src="certificates/cert4.jpg">
+        <img src="certificates/cert5.jpg">
+        <section id="contact">
+  
+  <section id="projects">
+  <h2>My Projects</h2>
+
+  <div class="project">
+    <h3>Portfolio Website</h3>
+    <p>Built using HTML & CSS</p>
+    <section id="skills">
+  
+      <section id="contact">
+  <h2>Contact Me</h2>
+
+  <form>
+    <input type="text" placeholder="Your Name"><br>
+    <input type="email" placeholder="Your Email"><br>
+    <textarea placeholder="Your Message"></textarea><br>
+    <button type="submit">Send</button>
+  </form>
+
+  <div class="social">
+    <a href="#">LinkedIn</a>
+    <a href="#">GitHub</a>
+    <a href="#">Instagram</a>
+    <section id="skills">
+  <h2>My Skills</h2>
+  <script>
+const text = "Aryan Prajapati";
+let i = 0;
+
+function typeEffect() {
+  if (i < text.length) {
+    document.getElementById("typing").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(typeEffect, 100);
+  }
+}
+
+typeEffect();
+</script>
+
+  <div class="skills-box">
+    <div class="skill">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+      <p>HTML</p>
+    </div>
+
+    <div class="skill">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png">
+      <p>CSS</p>
+    </div>
+
+    <div class="skill">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
+      <p>JavaScript</p>
+    </div>
+
+    <div class="skill">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732220.png">
+      <p>Excel</p>
+    </div>
+  </div>
+</section>
+  </div>
+</section>
+    </div>
+  </div>
+</section>
+  </div>
+</section>
+    </div>
+</section>
+
+</body>
+</html>

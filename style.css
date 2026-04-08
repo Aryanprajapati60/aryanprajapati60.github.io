@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header{
+    background: #161616;
+    color: white;
+    padding: 20px;
+}
+
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar li{
+    cursor: pointer;
+}
+
+/* LOGO */
+.logo-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo{
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* HERO */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+button{
+    padding: 10px 20px;
+    background: #3DCFD3;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* ABOUT */
+.about{
+    padding: 40px;
+    text-align: center;
+}
+
+/* CERTIFICATES */
+.certificates{
+    padding: 40px;
+    text-align: center;
+}
+
+.cert-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cert-box img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.cert-box img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.profile-img{
+    width:150px;
+    border-radius:50%;
+}
+body{
+  font-family: Arial;
+  margin:0;
+  padding:0;
+}
+
+section{
+  padding:50px;
+  text-align:center;
+}
+
+h2{
+  color:#333;
+}
+
+button{
+  background:#00bcd4;
+  color:white;
+  padding:10px 20px;
+  border:none;
+  border-radius:5px;
+}
+.certificates img{
+    width:200px;
+    margin: 10px;
+}
+.cert-box{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.cert-box img{
+  width:180px;
+  margin:10px;
+  border-radius:10px;
+}
+button:hover{
+  background:#0097a7;
+  cursor:pointer;
+}
+.hero{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:50px;
+}
+#skills{
+  text-align:center;
+  padding:50px;
+}
+
+.skills-box{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.skill{
+  margin:20px;
+}
+
+.skill img{
+  width:60px;
+}
+.skills-box{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+}
+.skill:hover{
+  transform:scale(1.1);
+  transition:0.3s;
+}
+.skill:hover{
+  transform:scale(1.1);
+  transition:0.3s;
+}
+#typing::after{
+  content:"|";
+  animation:blink 1s infinite;
+}
+
+@keyframes blink{
+  0%{opacity:1;}
+  50%{opacity:0;}
+  100%{opacity:1;}
+}
