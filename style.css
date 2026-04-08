@@ -5,17 +5,16 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial;
+  overflow-x: hidden;
 }
 
-/* ===== HEADER ===== */
 header {
   background: #161616;
   color: white;
   padding: 15px;
 }
 
-/* ===== NAVBAR ===== */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -24,32 +23,26 @@ header {
 
 .navbar ul {
   display: flex;
-  list-style: none;
   gap: 15px;
+  list-style: none;
 }
 
-/* ===== LOGO ===== */
 .logo {
   width: 40px;
   border-radius: 50%;
 }
 
-/* ===== HERO ===== */
 .hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px;
   text-align: center;
+  padding: 30px;
 }
 
-.hero img {
+.profile-img {
   width: 150px;
   border-radius: 50%;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
-/* ===== BUTTON ===== */
 button {
   padding: 8px 16px;
   background: #00bcd4;
@@ -57,16 +50,24 @@ button {
   color: white;
   margin-top: 10px;
   border-radius: 5px;
-  cursor: pointer;
 }
 
-/* ===== SECTION ===== */
 section {
   padding: 30px;
   text-align: center;
 }
 
-/* ===== CERTIFICATES ===== */
+.skills-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill img {
+  width: 50px;
+}
+
 .cert-box {
   display: flex;
   justify-content: center;
@@ -76,29 +77,4 @@ section {
 
 .cert-box img {
   width: 120px;
-  border-radius: 8px;
-}
-
-/* ===== SKILLS ===== */
-.skills-box {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.skill img {
-  width: 50px;
-}
-
-/* ===== CONTACT ===== */
-form input, 
-form textarea {
-  width: 80%;
-  margin: 5px;
-  padding: 8px;
-}
-
-form button {
-  margin-top: 10px;
 }
