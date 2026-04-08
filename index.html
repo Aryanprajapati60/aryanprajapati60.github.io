@@ -128,6 +128,26 @@ typeEffect();
 </section>
     </div>
 </section>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
+<script>
+(function(){
+    emailjs.init("vHbmTPTa6BKR43KsT");
+})();
+
+document.querySelector("form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    emailjs.sendForm(
+        "service_2ascxqv",   // service id
+        "template_8ci68zf",  // template id
+        this
+    ).then(function() {
+        alert("Message Sent Successfully ✅");
+    }, function(error) {
+        alert("Failed ❌");
+    });
+});
+</script>
 </body>
 </html>
