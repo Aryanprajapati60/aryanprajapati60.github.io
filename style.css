@@ -78,3 +78,7 @@ section {
 .cert-box img {
   width: 120px;
 }
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
